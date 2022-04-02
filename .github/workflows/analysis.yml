@@ -9,9 +9,11 @@ on:
 jobs:
   build:
 
-    runs-on: Windows-latest
+    runs-on: Linux-latest
 
     steps:
     - uses: actions/checkout@v2
+    - name: Install
+      run: sudo apt-get install cppcheck
     - name: analyse
       run: cppcheck --enable=all 3_Implementation
