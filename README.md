@@ -1,7 +1,10 @@
 # M1_C
-Project
+## Project Name: Unit Conversion
 
-## Badges
+To convert the units of the given number
+  
+
+### Badges
 Build on Windows:
 [![Build CI - Windows](https://github.com/satyajyothika/M1_C/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/satyajyothika/M1_C/actions/workflows/c-cpp.yml)
 
